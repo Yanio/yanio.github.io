@@ -1,0 +1,85 @@
+﻿/*定义全局*/
+	html,body,h1, h2, h3, h4, h5,h6,div,span,p,ul,li,label,form {margin:0px;padding:0px;letter-spacing: 0;word-spacing: 0;}
+	body{ font-size:12px; line-height:1.8; font-family:Verdana, "宋体", Arial,Sans; background:#FFF; color:#666;}
+	/*链接色*/
+	a:link,a:visited{color:#7978AC;	text-decoration: underline;}
+	a:hover,a:active{color:#ffffff;text-decoration: none;background-color: #7978AC;}
+	
+	ul,li{ list-style:none;}
+	img{ border:0;} 
+	h3{ font-size:12px; background:#5DB30A; padding:2px 10px; color:#000000}
+	h2{ font-size:14px; color:#000000;}
+	
+	#wrapper{ text-align:left;margin:0 auto; width:100%; overflow:hidden;}
+	#info{ width:500px; text-align:left; }
+	#nav{width:100%; text-align:center; border-top:1px solid #9C9BC5;}
+	#main{width:100%;text-align:center;margin:0 auto;}
+	#footer{width:100%;text-align:center;margin:0 auto;}
+	#header{ clear:both}
+	#header h2{ font-size:35px; margin-top:0px; font-weight:bold; color:#404040}
+	
+	/*左边大块*/
+	#left{  margin-right:305px;color:#000; font-size:14px;}
+	#leftbox{ padding:10px; font-size:14px;}
+	#leftbox{ padding:10px; font-size:14px;}
+	
+	/*右边大块*/
+	#right{  margin-left:-300px; float:left; width:289px; padding:5px;background:#F7F7F7; margin-top:24px;}
+	
+	/*搜索那一条*/
+	#search{ padding:0 0 10px 0; text-align:center; background:#F7F7F7;}
+	/*定义标题文字大小*/
+	h1{ font-size:16px;}
+	/*公用的三个CSS，分别为水平换行，左浮动和右浮动*/
+	.c,.clear{clear:both; height:0px; overflow:hidden;}
+	.l{ float:left;}
+	.red{ color:#FF0000}
+	.r{ float:right;}
+	.f12{ font-size:12px;}
+	small{font-size:12px;color:#999;font-weight: normal; padding-left:5px;}
+	.h_hr{ height:1px; overflow:hidden; margin:10px 5px; background:#CDCDCD;}
+
+/*单个页面部分*/
+	.imgbox{ text-align:center; width:200px;}
+	.imgbox img{ border:4px solid #CCC; display:block; margin:0 auto; }
+	.navbox{border-left:4px solid #f5f5f5; margin:5px 0 10px 0; padding-left:8px; }
+	
+	#view_img img{border:1px solid #ccc; padding:5px; margin:10px;}
+
+/*LIST页面部分*/
+	#listnav{ background:#f7f7f7; line-height:2.0; padding-left:10px; border-bottom:1px solid #D4D4D4;}
+	.listbox{ color:#666;width:590px;font-size:12px;border-bottom: 1px dashed #CCC;}
+	/*绿色的时间*/
+	.listbox p{color: #008000;}
+	/*大标题*/
+	#leftbox h2{font-size:14px; margin-top:10px;}
+	#leftbox span{ margin-left:10px;}
+
+/*首页页面部分*/
+	#h_center_l{ width:66%; border-left:1px solid #CDCDCD;border-right:1px solid #CDCDCD; float:left; margin-top:10px;}
+	#h_center_lbox{width:49%; border-right:1px solid #CDCDCD; float:left;}
+	#h_center_lboxb{width:50%;  float:right;}
+	#h_center_r{width:33%; float:right;margin-top:10px;}
+	#h_center_l h1,#h_center_r h1{ padding-left:5px; font-size:14px;}
+	#h_center_l ul,#h_center_r ul{ padding-left:19px; font-size:12px;}
+
+	#qcity{clear:both; margin-bottom:20px; margin-top:10px;}
+	#qcity li{ display:inline; padding-left:10px;}
+	#qcity h3{ font-size:14px; color:#000}
+	
+	#links { border-top: 1px solid #CCC; margin-top: 15px; }
+
+
+/*广告块部分*/
+	#viewContent{ float:right; width:300px;}
+	#pfm{padding:10px;border:1px solid #E4E4E4;background:#F7F7F7;padding:5px;clear:both;}
+	.pager li{color:#FF3300; display:inline; margin-right:5px;}
+	
+/*搜索页*/
+		h4{ font-size:12px;}
+td,p,div,span,li,select,textarea {font-size:12px;}
+input {font-size:14px;}
+.p {text-indent:0px;}
+li {line-height:150%;}
+.black12 {font-size:12px;color:#000000;}
+.grey12 {font-size:14px;color:#989898;}
